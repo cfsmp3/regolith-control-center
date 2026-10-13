@@ -1,3 +1,17 @@
+regolith-control-center (1.50.3-2) resolute; urgency=medium
+
+  * fix: ship panel desktop files and load them with a regolith- prefix, so
+    the app no longer aborts at startup without stock gnome-control-center
+  * fix: do not mark org.regolith.Settings.desktop as D-Bus activatable
+  * fix: install the Regolith logo, an org.regolith.Settings icon and a
+    working bash completion; point the metainfo at org.regolith.Settings
+  * fix: list the renamed desktop entry in POTFILES.in
+  * fix: build the man page; run the GNOME tests and validators again
+  * fix: depend on gstreamer1.0-plugins-base for the Mouse & Touchpad panel
+  * test: add autopkgtests
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Tue, 13 Oct 2026 12:00:00 +0000
+
 regolith-control-center (1.50.3-1) resolute; urgency=medium
 
   * Port from upstream gnome-control-center 50.3 (ubuntu 1:50.3-0ubuntu0.2)
