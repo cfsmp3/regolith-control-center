@@ -1,3 +1,16 @@
+regolith-control-center (1.51.1-1) stonking; urgency=medium
+
+  [ rego-port-bot ]
+  * Update to upstream gnome-control-center 51.1
+  * Refresh the snap location patch for 51.1
+  * background: show the chosen wallpaper in the Wayland session (#32)
+  * fix: show the Graphics Tablet panel again (#35)
+  * region: store the formats in accountsservice too (#40)
+  * fix: remove .git-blame-ignore-revs so the source package builds
+  * ci: run the release and unstable workflows on regolith/51
+
+ -- Regolith Linux <regolith.linux@gmail.com>  Sun, 08 Nov 2026 19:28:35 -0800
+
 regolith-control-center (1.51.0-1) stonking; urgency=medium
 
   [ rego-port-bot ]
